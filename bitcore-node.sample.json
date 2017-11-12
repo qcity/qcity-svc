@@ -1,0 +1,27 @@
+{
+    "network": "livenet",
+    "port": 13380,
+    "services": [
+        "bitcoind",
+        "web",
+        "insight-qac-api",
+        "insight-qac"
+
+    ],
+    "servicesConfig": {
+
+        "insight-qct": {
+            "11routePrefix": "insight-qct",
+            "apiPrefix": "insight-qct-api"
+        },
+        "bitcoind": {
+            "connect": [{
+                "rpchost": "127.0.0.1",
+                "rpcport": 13302,
+                "rpcuser": "1234567890",
+                "rpcpassword": "1234567890",
+                "zmqpubrawtx": "tcp://127.0.0.1:13391"
+            }]
+        }
+    }
+}
