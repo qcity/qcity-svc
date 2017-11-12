@@ -4,9 +4,9 @@
     "license": "MIT",
     "readme": "README.md",
     "dependencies": {
-        "bitcore-lib": "https://github.com/quasarcoin/quasarcore-lib.git",
+        "bitcore-lib": "https://github.com/quasarcoin/qctcore-lib.git",
         "bitcore-node": "https://github.com/quasarcoin/bitcore-node.git",
-        "insight-qac": "https://github.com/quasarcoin/insight-qac.git",
-        "insight-qac-api": "https://github.com/quasarcoin/insight-qac-api.git"
+        "insight-qct": "https://github.com/quasarcoin/insight-qct.git",
+        "insight-qct-api": "https://github.com/quasarcoin/insight-qct-api.git"
     }
 }

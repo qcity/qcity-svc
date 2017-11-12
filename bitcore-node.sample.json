@@ -4,8 +4,8 @@
     "services": [
         "bitcoind",
         "web",
-        "insight-qac-api",
-        "insight-qac"
+        "insight-qct-api",
+        "insight-qct"
 
     ],
     "servicesConfig": {
