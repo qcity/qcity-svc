@@ -1,5 +1,6 @@
 {
     "network": "livenet",
+    "network_test": "testnet",
     "port": 13380,
     "services": [
         "bitcoind",
